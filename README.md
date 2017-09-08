@@ -11,6 +11,10 @@ Once the Cognitive Services SDK has been released, this repo will be out of date
 1. In the `package.json`, update the source of the `cognitive-services` package (and rename accordingly if needed).
 1. Update `server/api.ts` to use the new SDK.
 1. Update the types in `client/api.ts` to refer to the new types.
+1. Fix `initializer.ts` if desired.
+
+## The Initializer
+If you want to create your own plant classifier, check out `identifier.ts` for an example of how you might get started.
 
 ## Features
 
