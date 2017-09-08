@@ -1,6 +1,6 @@
 # Plant Identifier: A Custom Vision Sample
 
-Try it out: aka.ms/plant
+Try it out: [aka.ms/plant](https://aka.ms/plant)
 
 This project utilizes the Custom Vision API and the Bing Entity Search API in order to analyze an image of a plant and respond with its most confident prediction of what plant it is, as well as some information about the plant and the top result from Bing.
 
