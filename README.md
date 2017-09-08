@@ -1,5 +1,9 @@
 # Plant Identifier: A Custom Vision Sample
 
+Try it out: aka.ms/plant
+
+This project utilizes the Custom Vision API and the Bing Entity Search API in order to analyze an image of a plant and respond with its most confident prediction of what plant it is, as well as some information about the plant and the top result from Bing.
+
 ## IMPORTANT: Updating to the newest SDK version
 
 Once the Cognitive Services SDK has been released, this repo will be out of date. Here's how you can fix it:
@@ -10,7 +14,7 @@ Once the Cognitive Services SDK has been released, this repo will be out of date
 
 ## Features
 
-- **Cognitive Services SDK**:
+- **Cognitive Services SDK**: The Cognitive Services SDK makes it incredibly easy to leverage intelligent AI and other services directly from JavaScript. As mentioned above, this project utilizes the Custom Vision API and the Bing Entity Search API.
 
 - **Classifier-agnostic**: Although the sample was built to identify plants, the only thing tying it to plants is the `<title>` tag in the HTML. Feel free to try it out with different classifiers.
 
