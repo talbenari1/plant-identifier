@@ -7,7 +7,6 @@ import { Application } from 'express'
 import config from '../config'
 
 const { predictor, trainer } = new CustomVision({
-// const test = new CustomVision({
   predictionKey: config.predictionKey,
   trainingKey: config.trainingKey,
   projectID: config.projectID
